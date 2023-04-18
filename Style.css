@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*Navbar*/
+nav ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+nav li{
+    float: left;
+}
+/*Fin navbar*/
+
+li a{
+    color: white;
+    text-decoration: none;
+    text-decoration-line: center;
+    padding: 15px;
+    display: inline-block;
+}
+li a :hover{
+    background-color: rgb(183, 33, 33);
+    color: darkgray;
+}
+
+
+/*Hero*/
+.hero{
+    background-image: linear-gradient(rgba(198, 205, 182, 0.8),
+                    rgba(0,0,0,0)),url(Imagen/Moto.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text-hero{
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+/*Fin hero*/
+
+
+/*Utilidades*/
+.text-large{
+    font-size: 80px;
+}
+
+.text-medium{
+    font-size: 30px;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px;
+}
+
+.titulo{
+    margin: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+/*Fin utilidades*/
+
+/*Informacion*/
+.info{
+    background-color: gray;
+    color: white;
+}
+
+.texto-info{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Fin informacion*/
+
+/*Descripcion*/
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.87);
+transform: scale(1.15);
+    
+}
+
+.card p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+/*Fin descripcion*/
+
+.container-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-gallery img {
+    width: 23%;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    
+}
+
+.gallery{
+    background-color: brown;
+}
+
+.container-gallery img:hover{
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+
+.footer-color{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer a:hover{
+    color:red
+}
